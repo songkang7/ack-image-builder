@@ -38,7 +38,7 @@ check_params() {
 
 setup_env() {
     export RUNTIME
-    export OS="AliyunOS"
+    export OS="ContainerOS"
     if [[ "$RUNTIME" = "docker" ]]; then
       RUNTIME_VERSION=${RUNTIME_VERSION:-19.03.15}
       export RUNTIME_VERSION
